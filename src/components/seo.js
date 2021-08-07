@@ -32,6 +32,9 @@ const SEO = ({ description, lang, meta, title }) => {
 
   return (
     <Helmet
+      bodyAttributes={{
+        class: 'dark'
+      }}
       htmlAttributes={{
         lang,
       }}
