@@ -51,12 +51,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: siteConfig.googleAnalyticsId,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: siteConfig.googleAnalyticsId,
+    //   },
+    // },
     `gatsby-plugin-feed`,
     `gatsby-plugin-sass`,
     {

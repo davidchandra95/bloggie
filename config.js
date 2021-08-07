@@ -1,22 +1,22 @@
 'use strict';
 
 module.exports = {
-  url: `https://abhaynikam.github.io/gatsby-nice-blog/`,
-  description: `A nice starter blog post boilerplate template built using Gatsby.`,
-  pathPrefix: '/',
-  title: `Nice Blogs`,
+  url: `https://davidchandra95.github.io/bloggie/`,
+  description: `Just a simple blog.`,
+  pathPrefix: '/bloggie',
+  title: `Bloggie`,
   disqusShortname: '',
   postsPerPage: 15,
   googleAnalyticsId: '',
   useKatex: false,
   author: {
-    name: `Abhay Nikam`,
-    summary: `, Ruby on Rails and Frontend developer from Pune, India.`,
+    name: `David Andrian Chandra`,
+    summary: `, Golang developer currently working at PT. Tokopedia, Indonesia.`,
     social: {
-      twitter: `abhaynikam13`,
-      github: `abhaynikam`,
-      email: `nikam.abhay1@gmail.com`,
-      linkedin: `abhaynikam`,
+      twitter: ``,
+      github: `davidchandra95`,
+      email: `chandraandriandavid@gmail.com`,
+      linkedin: ``,
       facebook: ``,
       instagram: ``,
     },

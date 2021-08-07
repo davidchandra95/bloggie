@@ -34,18 +34,14 @@ const Layout = ({ location, title, children }) => {
               <Link className="header-nav-link" to="/pages/about/">
                 About
               </Link>
-              <button className="toggle-button header-nav-link"
-                onClick={e => toggleTheme(theme === 'light' ? 'dark' : 'light')}
-              >
-                <img src={theme === "dark" ? SunSvg : MoonSvg} alt="toggle theme" className="sun-moon"/>
-              </button>
             </div>
           </header>
           <main>{children}</main>
           <footer className="d-flex">
             <div className="copyright-text">
-              Copyright © {new Date().getFullYear()},&nbsp;
-              <a href="http://abhaynikam.me/">Abhay Nikam</a>
+            Copyright © {new Date().getFullYear()},
+              Template by &nbsp;
+              <a href="http://abhaynikam.me/" target="_blank">Abhay Nikam</a>
             </div>
             <div className="footer-icon-group">
               <FooterSocialIcons />
