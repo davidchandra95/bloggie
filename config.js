@@ -3,7 +3,7 @@
 module.exports = {
   url: `https://davidchandra95.github.io/bloggie/`,
   description: `Just a simple blog.`,
-  pathPrefix: '/bloggie',
+  pathPrefix: '/',
   title: `Bloggie`,
   disqusShortname: '',
   postsPerPage: 15,
