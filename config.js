@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  url: `https://davidchandra95.github.io/bloggie/`,
+  url: `https://davidchandra95.github.io`,
   description: `Just a simple blog.`,
-  pathPrefix: '/bloggie/',
+  pathPrefix: '/bloggie',
   title: `Bloggie`,
   disqusShortname: '',
   postsPerPage: 15,
