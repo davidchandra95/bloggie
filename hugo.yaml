@@ -4,6 +4,7 @@ title: "David Chandra"
 theme: 'PaperMod'
 
 params:
+  ShowCodeCopyButtons: true
   homeInfoParams:
     Title: Exploring the World Through a Noob’s Lens
     Content: 'Humble Insights on Software Engineering, Football Passion, and Investment Curiosities'
@@ -48,6 +49,9 @@ menu:
       name: Search
       url: /search/
       weight: 40
+    - name: About
+      url: about/
+      weight: 50
 
 outputs:
   home:
