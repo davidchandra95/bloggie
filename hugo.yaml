@@ -1,0 +1,56 @@
+baseURL: ''
+languageCode: 'en-us'
+title: "David Chandra"
+theme: 'PaperMod'
+
+params:
+  homeInfoParams:
+    Title: Dave's Blog
+    Content: Software Engineer | Football Fans | Investing
+
+  socialIcons: # optional
+    - name: "Github"
+      url: "https://github.com/davidchandra95"
+    - name: "Instagram"
+      url: "https://instagram.com/david_chandra95"
+    - name: "LinkedIn"
+      url: "https://linkedin.com/in/david-andrian-chandra"
+  cover:
+    linkFullImages: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
