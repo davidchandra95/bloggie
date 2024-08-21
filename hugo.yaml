@@ -5,8 +5,8 @@ theme: 'PaperMod'
 
 params:
   homeInfoParams:
-    Title: Dave's Blog
-    Content: Software Engineer | Football Fans | Investing
+    Title: Exploring the World Through a Noob’s Lens
+    Content: 'Humble Insights on Software Engineering, Football Passion, and Investment Curiosities'
 
   socialIcons: # optional
     - name: "Github"
