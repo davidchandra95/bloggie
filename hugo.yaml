@@ -33,6 +33,9 @@ params:
 
 menu:
   main:
+    - name: Portfolio
+      url: /portfolio/
+      weight: 5
     - identifier: categories
       name: Categories
       url: /categories/
