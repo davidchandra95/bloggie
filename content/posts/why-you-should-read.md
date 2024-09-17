@@ -4,8 +4,8 @@ date: 2024-08-22T00:10:27+07:00
 draft: false
 cover:
     image: images/reading-quotes.jpg
-    alt: 'reading quotes'
-    caption: 'quotes'    
+    alt: 'quotes image'
+    caption: '[source](https://weareteachers.com/wp-content/uploads/Reading-Quotes-Feature.jpg)'    
 tags: ['reading', 'books']
 categories: ['general']
 ---

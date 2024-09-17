@@ -14,12 +14,15 @@ ShowCodeCopyButtons: false
 - **Overview**: Developed a system designed to enhance response times in the after-sales complaint process. This system includes an action-based time tracking feature, encouraging strict adherence to response timelines.
 - **Technologies Used**: NSQ for message queuing, Cron Scheduler for tracking and updating time limits, and Elastic Search for storing user invoices.
 - **Impact**: The project significantly reduced the lifecycle of ticket complaints and minimized the need for manual intervention by administrative staff.
+- **Tech Stacks**: Go, Postgres, NSQ, Redis, Graphql, GRPC.
 
 ### 2. Return Shipping Claim System Improvement
 - **Overview**: Trusted to enhance the return shipping claim system. This involved collaboration with the internal logistics team and third-party shipping partners, enabling users to return products without upfront payment. The shipping cost is later claimed in the background by our company from a third-party insurance company.
 - **Impact**: Increase customer satisfaction due to faster ticket life cycle. Seamless shipping and claim process in the background.
 - **Collaboration**: Worked closely with both the internal logistics team and external third-party shipping services to integrate their services seamlessly into the system.
-
+- **Tech Stacks**: Go, Postgres, NSQ, Redis, Graphql, GRPC.
+  
+  
 ## Personal Work Highlights
 ---
 ### 1. University Survey System

@@ -48,13 +48,14 @@ menu:
       name: Archives
       url: /archives/
       weight: 30
+    - name: About
+      url: about/
+      weight: 40
     - identifier: search
       name: Search
       url: /search/
-      weight: 40
-    - name: About
-      url: about/
       weight: 50
+    
 
 outputs:
   home:
